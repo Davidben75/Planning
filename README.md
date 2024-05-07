@@ -1,2 +1,2 @@
 # Planning
-PLanning view using Calendar js 
+PLanning view using Full Calendar js 

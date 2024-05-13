@@ -61,8 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
             $('#exampleModal').modal('show');
           }
         }
-      }   ,
-      textColor: 'black', // an option!
+      },
       themeSystem: 'bootstrap',
       initialView: 'timeGridWeek',
       headerToolbar: { start : 'prev,today,next, myCustomButton',center: 'title' , end : 'timeGridDay,dayGridWeek,dayGridMonth' }, 
@@ -93,8 +92,14 @@ document.addEventListener('DOMContentLoaded', function() {
             endTime:  shiftEnd,
             startRecur: startRecurInfo,
             endRecur: endRecurInfo,
-          }
+          },
+   
       ],
+      textColor : 'black', // an option!
+
+
+
+      
       eventDisplay  : 'block', 
       // eventColor: '#7BE0AD',
       dateClick: function(info) {
